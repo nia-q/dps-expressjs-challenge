@@ -2,6 +2,25 @@
 
 ## Overview
 
+## Implemented Features
+
+- **Projects**
+  - Create a new project
+  - Retrieve all projects
+  - Retrieve a project by ID
+  - Update a project by ID
+  - Delete a project by ID (and corresponding report)
+
+- **Reports**
+  - Create a new report
+  - Retrieve reports by project ID
+  - Retrieve a report by ID
+  - Update a report by ID
+  - Delete a report by ID
+
+- **Special Endpoint**
+  - Retrieve all reports where a specific word appears at least three times in the text field
+
 This repository contains a very basic web application based on Typescript and Express.js. Main application file is `index.ts`. Node and npm are required.
 
 ## Environment Setup
